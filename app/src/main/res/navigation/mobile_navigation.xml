@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/fragmentoInitio">
+    <fragment
+        android:id="@+id/fragmentoInitio"
+        android:name="com.example.proyectonew.FragmentoInitio"
+        android:label="@string/menu_principal"
+        tools:layout="@layout/fragment_fragmento_initio" />
+    <fragment
+        android:id="@+id/galeriape"
+        android:name="com.example.proyectonew.galeriape"
+        android:label="@string/galeria"
+        tools:layout="@layout/fragment_galeriape" />
+    <fragment
+        android:id="@+id/slideshowpe"
+        android:name="com.example.proyectonew.slideshowpe"
+        android:label="@string/notificaciones"
+        tools:layout="@layout/fragment_slideshowpe" />
+    <fragment
+        android:id="@+id/dodepabe"
+        android:name="com.example.proyectonew.dodepabe"
+        android:label="@string/Dodepabe"
+        tools:layout="@layout/fragment_dodepabe" />
+    <fragment
+        android:id="@+id/fragment_dota"
+        android:name="com.example.proyectonew.Dota"
+        android:label="@string/Dota"
+        tools:layout="@layout/fragment_dota" />
+</navigation>
